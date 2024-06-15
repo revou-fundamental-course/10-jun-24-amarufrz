@@ -1,0 +1,28 @@
+.judul{
+    margin-block-end: auto;
+    text-align: center;
+}
+.garis-pembatas{
+    border-width: medium;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+.subjudul{
+    margin-block-start: auto;
+    text-align: center;
+    font-style: italic;
+    font-family: emoji;
+}
+.header-celcius{
+    text-align: center;
+}
+{}
+.result-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subject-info{
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+}
