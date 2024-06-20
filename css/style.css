@@ -22,6 +22,7 @@ body{
 .result-container{
     display: flex;
     justify-content: space-evenly;
+    
 }
 .subject-info{
     font-size: 24px;
@@ -31,4 +32,14 @@ body{
 .pembatas-bawah{
     margin-block-start: 1cm;
     border-width: medium;
+}
+.kotak{
+    width: 5cm;
+    border-radius: 5px;
+    border: inset;
+    padding-block: 4px;
+    text-align: center;
+}
+.tombol{
+    padding-top: 5px;
 }

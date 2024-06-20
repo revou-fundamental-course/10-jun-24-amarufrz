@@ -15,25 +15,22 @@
         <section class="header-celcius">
             <!--celcius-->
             <h3 class="judul"> Celcius (&deg;C)</h3>
-            <input type="number" id="suhuc" placeholder="Masukkan nilai suhunya">
-        </section>
-        <section class="header-celcius">
-            <!--button-->
+            <input type="number" id="suhuc" class="kotak" placeholder="Masukkan nilai suhunya">
+            <section>
             <button onclick="konversi()"> Convert </button>
             <button onclick="hapus()"> Reset </button>
             <button onclick="balik()"> Reverse </button>
+            </section>
         </section>
         <section class="result-container">
             <section>
             <!--fahrentheit-->
             <h3 class="judul"> Fahrenheit (&deg;F)</h3>
-            <label for="suhuf"></label>
-            <input type="text" id="suhuf" readonly>
+            <input  type="text" id="suhuf" class="kotak" readonly>
             </section>
             <section>
                 <h3 class="judul">Detail Formula</h3>
-                <label for="formula"></label>
-                <input type="text" id="formula" readonly>
+                <input type="text" id="formula" class="kotak" readonly>
             </section>
         </section>
         <hr class="pembatas-bawah">
@@ -54,6 +51,6 @@
         </section>
         
     </main>
-    <script scr="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
