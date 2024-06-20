@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>
-        PUNYA AMARU
+        TEMPERATURE CONVERTER
     </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,15 +12,48 @@
         <h4 class="subjudul">Mengubah temperature dari celcius ke fahrenheit dan sebaliknya</h4>
     </header>
     <main>
-        <section>
-            
+        <section class="header-celcius">
+            <!--celcius-->
+            <h3 class="judul"> Celcius (&deg;C)</h3>
+            <input type="number" id="suhuc" placeholder="Masukkan nilai suhunya">
         </section>
-        <section>
-            <section></section>
-            <section></section>
+        <section class="header-celcius">
+            <!--button-->
+            <button onclick="konversi()"> Convert </button>
+            <button onclick="hapus()"> Reset </button>
+            <button onclick="balik()"> Reverse </button>
         </section>
-        <section></section>
+        <section class="result-container">
+            <section>
+            <!--fahrentheit-->
+            <h3 class="judul"> Fahrenheit (&deg;F)</h3>
+            <label for="suhuf"></label>
+            <input type="text" id="suhuf" readonly>
+            </section>
+            <section>
+                <h3 class="judul">Detail Formula</h3>
+                <label for="formula"></label>
+                <input type="text" id="formula" readonly>
+            </section>
+        </section>
+        <hr class="pembatas-bawah">
+        <section>
+            <!--Informasi-->
+            <h2>
+                For Your Information
+            </h2>
+            <h4>
+                Suhu <span class="subject-info">S</span> derajat (&deg;F) sama dengan suhu <span class="subject-info">S</span> dalam derajat (&deg;C) yang dikali dengan 9/5 lalu ditambahkan dengan 32.
+                <br>
+                <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> * 9/5) + 32 atau <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> * 1.8) + 32
+                <br>
+                Suhu <span class="subject-info">S</span> derajat (&deg;C) sama dengan suhu <span class="subject-info">S</span> dalam derajat (&deg;F) yang dikurangi 32 lalu dikalikan dengan 5/9
+                <br>
+                <span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span class="subject-info">S</span><sub>(&deg;F)</sub> - 32) * 5/9 atau <span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span class="subject-info">S</span><sub>(&deg;F)</sub> - 32) * 0.556
+            </h4>
+        </section>
         
     </main>
+    <script scr="js/script.js"></script>
 </body>
 </html>

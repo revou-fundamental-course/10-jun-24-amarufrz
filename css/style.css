@@ -16,7 +16,9 @@
 .header-celcius{
     text-align: center;
 }
-{}
+body{
+    background-image: url(../asset/huhu.png);
+}
 .result-container{
     display: flex;
     justify-content: space-evenly;
@@ -25,4 +27,8 @@
     font-size: 24px;
     font-style: italic;
     font-family: math;
+}
+.pembatas-bawah{
+    margin-block-start: 1cm;
+    border-width: medium;
 }
